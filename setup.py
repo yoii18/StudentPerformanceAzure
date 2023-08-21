@@ -18,8 +18,8 @@ def get_requirements(file_path:str)->List[str]:
     return requirements
 
 setup(
-name='mlproject',
-version='0.0.2',
+name='StudentPerformanceAzure',
+version='0.0.3',
 author='Deepesh',
 author_email='dpssalhotra@gmail.com',
 packages=find_packages(),
