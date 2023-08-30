@@ -153,12 +153,12 @@ ul {
   box-shadow: var(--shadow-3);
 }
 .btn-hipster {
-  color: var(--sky-100);
+  color: var(--primary-800);
   /* background: var(--primary-300); */
 }
 .btn-hipster:hover {
-  color: var(--sky-800);
-  background: var(--primary-200);
+  color: var(--primar-400);
+  background: var(--primary-600);
 }
 .btn-block {
   width: 100%;
@@ -410,5 +410,44 @@ Footer
     color: var(--sky-500);
     transition: var(--transition);
     text-shadow: var(--shadow-1);
+}
+
+/*
+=============== 
+Form
+===============
+*/
+
+
+.login{
+  height: 15vw;
+}
+.login h1{
+  font-size: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--primary-800);
+} */
+.form{
+  height: 80vw;
+  background-color: var(--primary-800);
+  color: var(--primary-400);
+  margin-top: 0%;
+  padding: 2;
+  max-width: var(--max-width);
+  /* display: inline-block; */
+  margin-left: 2;
+  vertical-align: top;
+  /* align-items: center; */
+  /* justify-content: center; */
+  background: red;
+}
+.form h1{
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--primary-400);
 }
 
