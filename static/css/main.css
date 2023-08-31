@@ -154,11 +154,13 @@ ul {
 }
 .btn-hipster {
   color: var(--primary-800);
-  /* background: var(--primary-300); */
+  background: var(--primary-500);
+  letter-spacing: var(--letterSpacing);
+  font-style: inherit;
 }
 .btn-hipster:hover {
-  color: var(--primar-400);
-  background: var(--primary-600);
+  color: var(--primary-500);
+  background: var(--primary-800);
 }
 .btn-block {
   width: 100%;
@@ -183,28 +185,54 @@ ul {
 /* form */
 
 .form {
-  width: 90vw;
-  max-width: var(--fixed-width);
-  background: var(--white);
+  width: var(--max-width);
+  max-width: var(--max-width);
+  background: var(--primary-800);
   border-radius: var(--borderRadius);
   box-shadow: var(--shadow-2);
   padding: 2rem 2.5rem;
   margin: 3rem auto;
+  height: 40rem;
+  display: flex;
+  flex-direction: column;
+  margin-top: 2rem;
+}
+.input{
+  margin-top: 2rem;
+}
+.mb-3{
+  margin-top: 8rem;
+  margin-left: 25rem;
+}
+.form h1{
+  font-size: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--primary-400);
+}
+.row2{
+  margin-left: 25rem;
 }
 .form-label {
   display: block;
-  font-size: var(--smallText);
+  font-size: 1rem;
   margin-bottom: 0.5rem;
   text-transform: capitalize;
   letter-spacing: var(--letterSpacing);
+  color: var(--primary-500);
+  /* margin-left: 2rem; */
+  /* text-align: center; */
 }
 .form-input,
 .form-textarea {
-  width: 100%;
+  width: 18rem;
   padding: 0.375rem 0.75rem;
   border-radius: var(--borderRadius);
   background: var(--backgroundColor);
   border: 1px solid var(--sky-200);
+  text-align: center;
+  /* margin-left: 2rem; */
 }
 
 .form-row {
@@ -216,7 +244,7 @@ ul {
 }
 ::placeholder {
   font-family: inherit;
-  color: var(--sky-400);
+  color: var(--primary-400);
 }
 .form-alert {
   color: var(--red-dark);
@@ -402,6 +430,7 @@ Footer
 }
 .page-footer p{
   margin-bottom: 0rem;
+  /* margin-top: auto; */
 }
 .footer-logo, .page-footer a{
   color: var(--primary-500);
@@ -410,6 +439,11 @@ Footer
     color: var(--sky-500);
     transition: var(--transition);
     text-shadow: var(--shadow-1);
+}
+.page h2{
+  margin-top: 3rem;
+  color: var(--primary-800);
+  font-size: 1.5rem;
 }
 
 /*
@@ -421,27 +455,28 @@ Form
 
 .login{
   height: 15vw;
+  /* display: table; */
 }
 .login h1{
   font-size: 2rem;
   display: flex;
   align-items: center;
   justify-content: center;
-  color: var(--primary-800);
-} */
+  color: var(--primary-400);
+} 
+.table{
+  margin-left: 10rem;
+}
+/*
 .form{
-  height: 80vw;
-  background-color: var(--primary-800);
+  height: 74.5vw;
+  background: var(--primary-800);
   color: var(--primary-400);
   margin-top: 0%;
   padding: 2;
   max-width: var(--max-width);
-  /* display: inline-block; */
   margin-left: 2;
   vertical-align: top;
-  /* align-items: center; */
-  /* justify-content: center; */
-  background: red;
 }
 .form h1{
   font-size: 1rem;
@@ -450,4 +485,4 @@ Form
   justify-content: center;
   color: var(--primary-400);
 }
-
+*/
