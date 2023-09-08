@@ -13,6 +13,12 @@ This is a practice project that was created with the help of a follow along Tuto
 
 Following are the GIFs that showcase how the project worked in real time, the app was deleted since keeping it on Azure for long time would've meant additional charges.
 
+![](https://github.com/yoii18/StudentPerformanceAzure/blob/main/static/assets/about-final-gif.gif)
+
+![](https://github.com/yoii18/StudentPerformanceAzure/blob/main/static/assets/contact-final-gif.gif)
+
+
+![](https://github.com/yoii18/StudentPerformanceAzure/blob/main/static/assets/pred-final-gif.gif)
 
 
 ## Installing the project
