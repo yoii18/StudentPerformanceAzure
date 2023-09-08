@@ -4,21 +4,107 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>About || Starter</title>
+    <title>Simply Recipes || Starter</title>
     <!-- favicon -->
-    <link rel="shortcut icon" href="./assets/favicon.ico" type="image/x-icon" />
+    <link rel="shortcut icon" href="./static/assets/Logo.png" type="image/x-icon" />
     <!-- normalize -->
-    <link rel="stylesheet" href="./css/normalize.css" />
+    <link rel="stylesheet" href="./static/css/normalize.css" />
     <!-- font-awesome -->
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
     />
     <!-- main css -->
-    <link rel="stylesheet" href="./css/main.css" />
+    <link rel="stylesheet" href="./static/css/main.css" />
   </head>
   <body>
-   <h1>About Page</h1>
-    
+    <!-- nav -->
+    <nav class="navbar">
+      <div class="nav-center">
+        <!-- header -->
+        <div class="nav-header">
+          <!--will have the logo and toggle -->
+          <a href="index.html" class="nav-logo"> 
+            <img src="/static/assets/Logo.png" alt="DeepeshSalhotra">
+          </a>
+          <button type='button' class="btn nav-btn btn-hipster">
+            <i class="fas fa-align-justify"></i>
+          </button>
+        </div> 
+        
+        <div class="nav-links">
+          <!-- will have all the links -->
+          <a href="index.html" class="nav-link">Home</a>
+          <a href="about.html" class="nav-link">About</a>
+          <a href="prediction.html" class="nav-link">prediction</a>
+          <div class="nav-link contact-link">
+            <a href="contact.html" class="btn btn-hipster">Contact</a>
+          </div>
+        </div> 
+      </div>
+    </nav>
+    <!-- end of nav --> 
+
+    <!-- main -->
+    <main class="about">
+      <h1>Student Performance Predictor</h1>
+      <h2>About</h2>
+      <!-- gif -->
+      <img src="/static/assets/about_gif.gif" alt="exams" class="gif">
+      <!-- end of gif -->
+
+      <!-- page content -->
+      <p class="main-content">
+        Here we talk about various variables that are present in this project:
+        <ol>
+        <li><b>Gender</b>: choose between Male and Female </li>
+        <li><b>Race/Ethnicity</b>: This feature takes into account the race or ethnicity of the student. These are:
+          <ol>
+            <li>Group A</li>
+            <li>Group B</li>
+            <li>Group C</li>
+            <li>Group D</li>
+            <li>Group E</li>
+          </ol>
+          Obviously we have hidden the actual race/ethnicity so as to not promote any racism. 
+        </li>
+        <li><b>Parental Level of Education</b>: This feature takes into account the education level of parents. The options to choose from are:
+          <ol>
+            <li>Associate's Degree</li>
+            <li>Bachelor's Degree</li>
+            <li>High School</li>
+            <li>Master's Degree</li>
+            <li>Some College</li>
+            <li>Some High School</li>
+          </ol>
+        </li>
+        <li><b>Lunch Type</b>: There are 2 lunch options to choose from:
+          <ol>
+            <li>Standard Lunch</li>
+            <li>Free/Reduced</li>
+          </ol>
+        </li>
+        <li><b>Test Course</b>: Test Course is either Completed or None </li>
+        <li><b>Writing Score</b>: Choose the score out of 100 </li>
+        <li><b>Reading Score</b>: Choose the score out of 100 </li>
+
+      </ol>
+      The link to Kaggle dataset is: <a href="https://www.kaggle.com/datasets/spscientist/students-performance-in-exams"> Student Performance Dataset</a>
+      </p>
+      <!-- end of page content -->
+
+    </main>
+    <!-- end of main -->
+
+    <!-- footer -->
+    <footer class="page-footer">
+      <p>
+        &copy; <span id="date"></span>
+        <span class="footer-logo">Student Score Predictor</span>
+        Built by <a href="https://github.com/yoii18">Yoii18</a>
+      </p>
+    </footer>
+    <!-- end of footer -->
+    <script src="/static/js/app.js"></script>
   </body>
 </html>
