@@ -60,4 +60,4 @@ jobs:
         with:
           app-name: 'studentperformancepred'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_5AC49258464443ED8D25AA87B90FAE2F }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_2BD70F1B49594F3CA6C1D2C36B5AE809 }}
